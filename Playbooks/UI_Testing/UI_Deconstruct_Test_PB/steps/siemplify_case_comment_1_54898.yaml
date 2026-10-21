@@ -63,7 +63,7 @@ parameters:
 -   step_id: null
     playbook_id: null
     name: ScriptParametersEntityFields
-    value: '{"Comment":"Initial triage started"}'
+    value: '{"Comment":"Initial triage started - updated via UI"}'
 -   step_id: null
     playbook_id: null
     name: SelectedScopeName
