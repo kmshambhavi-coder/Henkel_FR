@@ -1,0 +1,24 @@
+identifier: d641b635-eba4-4488-b985-0e3f76b7d1e6
+is_enabled: true
+playbook_id: ''
+playbook_name: ''
+environments: []
+type_: case_data
+logical_operator: or
+conditions:
+-   field_name: '[Alert.Name]'
+    value: AWS
+    match_type: starts_with
+    custom_operator_name: null
+-   field_name: '[Event.event_metadata_productName]'
+    value: AWS
+    match_type: contains
+    custom_operator_name: null
+-   field_name: '[Event.event_metadata_vendorName]'
+    value: AMAZON
+    match_type: contains
+    custom_operator_name: null
+reaction_logical_operator: 1
+reaction_conditions: null
+execution_mode: 0
+max_reaction_depth: null

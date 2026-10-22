@@ -1,0 +1,31 @@
+identifier: bf33dd58-1b9b-456e-a1a2-9104e601d9af
+is_enable: false
+version: '0'
+name: Censys - Entity Enrichment
+description: This playbook automatically enriches IP addresses, domains, and certificate
+    entities with Censys threat intelligence data during alert triage and investigation
+    workflows. It retrieves comprehensive asset information including exposed services,
+    ports, protocols, geolocation, ASN details, and associated infrastructure to provide
+    immediate context for security analysts.
+priority: 3
+category_name: Content Hub Playbooks
+category: 3
+environments:
+- Default Environment
+is_debug_mode: false
+type: playbook
+creator: 40fb2525-eb88-4cb7-80e8-beb63fa6f588
+modified_by: 40fb2525-eb88-4cb7-80e8-beb63fa6f588
+execution_scope: 1
+original_playbook_identifier: bf33dd58-1b9b-456e-a1a2-9104e601d9af
+creation_time_unix_time_in_ms: 1792657205884
+modification_time_unix_time_in_ms: 1792657205884
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1

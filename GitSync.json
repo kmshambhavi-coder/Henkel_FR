@@ -1,19 +1,19 @@
 {
-    "system_version": "6.1.6.186",
     "readme_addons": {
-        "Integration": {},
-        "Mappings": {},
-        "Visual Family": {},
-        "Playbook": {
-            "UI_Deconstruct_Test_PB": "Test readme addon",
-            "Amazon Web Services Cloud Platform Starting Playbook": "Test readme addon",
-            "Censys - Entity Enrichment": "Test readme addon"
-        },
+        "Block": {},
         "Connector": {},
+        "Integration": {},
         "Job": {},
-        "Block": {}
+        "Mappings": {},
+        "Playbook": {
+            "Amazon Web Services Cloud Platform Starting Playbook": "Test readme addon",
+            "Censys - Entity Enrichment": "Test readme addon",
+            "UI_Deconstruct_Test_PB": "Test readme addon"
+        },
+        "Visual Family": {}
     },
     "settings": {
         "update_root_readme": true
-    }
+    },
+    "system_version": "6.1.6.186"
 }
