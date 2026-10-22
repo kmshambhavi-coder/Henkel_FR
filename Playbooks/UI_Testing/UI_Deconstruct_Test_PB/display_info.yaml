@@ -1,9 +1,0 @@
-type: playbook
-content_hub_display_name: UI_Deconstruct_Test_PB
-author: ''
-contact_email: ''
-tags:
-- UI_Testing
-should_display_in_content_hub: true
-contribution_type: third_party
-acknowledge_debug_data_included: false
