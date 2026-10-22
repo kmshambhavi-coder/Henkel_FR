@@ -1,0 +1,20 @@
+{
+    "readme_addons": {
+        "Block": {
+            "AWS Enrichment": "Test readme addon"
+        },
+        "Connector": {},
+        "Integration": {},
+        "Job": {},
+        "Mappings": {},
+        "Playbook": {
+            "Censys - Entity Enrichment": "Test readme addon",
+            "UI_Deconstruct_Test_PB": "Test readme addon"
+        },
+        "Visual Family": {}
+    },
+    "settings": {
+        "update_root_readme": true
+    },
+    "system_version": "6.1.6.186"
+}

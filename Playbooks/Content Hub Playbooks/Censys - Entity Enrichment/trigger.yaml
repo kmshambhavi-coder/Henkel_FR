@@ -1,0 +1,24 @@
+identifier: 593ea9ec-fd03-4f22-a7b2-7c5fecb63523
+is_enabled: true
+playbook_id: ''
+playbook_name: ''
+environments: []
+type_: case_data
+logical_operator: or
+conditions:
+-   field_name: '[Entity.Type]'
+    value: ADDRESS
+    match_type: equal
+    custom_operator_name: null
+-   field_name: '[Entity.Type]'
+    value: DOMAIN
+    match_type: equal
+    custom_operator_name: null
+-   field_name: '[Entity.Type]'
+    value: FILEHASH
+    match_type: equal
+    custom_operator_name: null
+reaction_logical_operator: 1
+reaction_conditions: null
+execution_mode: 0
+max_reaction_depth: null

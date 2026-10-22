@@ -1,0 +1,85 @@
+identifier: b0836b72-c027-406f-90a1-88a0dd396cbc
+original_step_id: b0836b72-c027-406f-90a1-88a0dd396cbc
+parent_step_ids:
+- 2b3c9fd2-cee4-4a03-a018-973a8d72f9d5
+parent_step_id: 2b3c9fd2-cee4-4a03-a018-973a8d72f9d5
+previous_result_condition: '{"2b3c9fd2-cee4-4a03-a018-973a8d72f9d5": ""}'
+instance_name: Enrich Domains
+is_automatic: true
+name: Censys_Enrich Web Properties
+is_skippable: false
+description: This action retrieves comprehensive information about a web property
+    (domain/hostname(IP Address)) using the Censys Platform API. Web properties are
+    identified using a combination of a hostname and port (e.g., platform.censys.io:80).
+    It provides detailed intelligence about web-facing assets including HTTP/HTTPS
+    services, certificates, technologies, and security configurations.
+action_provider: Scripts
+action_name: Censys_Enrich Web Properties
+integration: Censys
+auto_skip_on_failure: false
+is_debug_mock_data: false
+is_touched_by_ai: false
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: ''
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: RetryConfiguration
+    value: '{"Enabled":false,"IntervalInSeconds":30,"NumberOfRetries":1}'
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Censys_Enrich Web Properties
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Port":"80, 443","At Time":""}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All domains
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: null
+parallel_actions: []
+step_debug_data: null

@@ -1,0 +1,27 @@
+identifier: 6926f015-7d17-4fbf-85ed-1237d0c7ed14
+is_enable: true
+version: '1'
+name: New Block
+description: An embedded workflow that can receive inputs and return an output.
+priority: 2
+category_name: UI_Testing
+category: 2
+environments:
+- Default Environment
+is_debug_mode: false
+type: block
+creator: 40fb2525-eb88-4cb7-80e8-beb63fa6f588
+modified_by: 40fb2525-eb88-4cb7-80e8-beb63fa6f588
+execution_scope: 0
+original_playbook_identifier: 6926f015-7d17-4fbf-85ed-1237d0c7ed14
+creation_time_unix_time_in_ms: 1792673965811
+modification_time_unix_time_in_ms: 1792673965811
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1

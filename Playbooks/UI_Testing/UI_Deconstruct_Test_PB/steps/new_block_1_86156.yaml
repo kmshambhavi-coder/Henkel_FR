@@ -1,0 +1,64 @@
+identifier: 86156ace-a329-4f05-be77-89a5d1f43efc
+original_step_id: 86156ace-a329-4f05-be77-89a5d1f43efc
+parent_step_ids:
+- 5489837c-7f8a-4afb-b5ed-d63c45fd4cce
+parent_step_id: 5489837c-7f8a-4afb-b5ed-d63c45fd4cce
+previous_result_condition: '{"5489837c-7f8a-4afb-b5ed-d63c45fd4cce": ""}'
+instance_name: New Block_1
+is_automatic: true
+name: New Block
+is_skippable: false
+description: An embedded workflow that can receive inputs and return an output.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+is_touched_by_ai: false
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DistinctDuplicateEntities
+    value: 'true'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 6926f015-7d17-4fbf-85ed-1237d0c7ed14
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: 'true'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"616493aa-4f33-4676-94b7-01eb5c9a532a","integration":"Siemplify","actionName":"Siemplify_Add
+        Entity Insight","instanceName":"Siemplify_Add Entity Insight_1","stepType":0},{"identifier":"6846a55a-2809-441d-8684-8519a04410fc","integration":"Siemplify","actionName":"Siemplify_Case
+        Tag","instanceName":"Siemplify_Case Tag_1","stepType":0},{"identifier":"b0571618-9f11-47ca-a71e-d9da42c8a483","integration":"Siemplify","actionName":"Siemplify_Case
+        Tag","instanceName":"Siemplify_Case Tag_2","stepType":0},{"identifier":"d8af4ad8-1b26-4067-affd-eaadfd97bc40","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Condition_1","stepType":4}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

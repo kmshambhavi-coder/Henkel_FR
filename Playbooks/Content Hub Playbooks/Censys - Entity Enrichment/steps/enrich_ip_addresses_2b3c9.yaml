@@ -1,0 +1,85 @@
+identifier: 2b3c9fd2-cee4-4a03-a018-973a8d72f9d5
+original_step_id: 2b3c9fd2-cee4-4a03-a018-973a8d72f9d5
+parent_step_ids:
+- dbd8ea37-f11b-46a2-a5a3-f1f374a44f2c
+parent_step_id: dbd8ea37-f11b-46a2-a5a3-f1f374a44f2c
+previous_result_condition: '{"dbd8ea37-f11b-46a2-a5a3-f1f374a44f2c": ""}'
+instance_name: Enrich IP Addresses
+is_automatic: true
+name: Censys_Enrich IPs
+is_skippable: false
+description: This action retrieves comprehensive information about multiple hosts
+    (IP address) using the Censys Platform API. It provides detailed intelligence
+    about internet-facing infrastructure including services, ports, protocols, certificates,
+    vulnerabilities, and location data to help security teams understand their attack
+    surface exposure.
+action_provider: Scripts
+action_name: Censys_Enrich IPs
+integration: Censys
+auto_skip_on_failure: false
+is_debug_mock_data: false
+is_touched_by_ai: false
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: ''
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: RetryConfiguration
+    value: '{"Enabled":false,"IntervalInSeconds":30,"NumberOfRetries":1}'
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Censys_Enrich IPs
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"At Time":""}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All IP addresses
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: null
+parallel_actions: []
+step_debug_data: null

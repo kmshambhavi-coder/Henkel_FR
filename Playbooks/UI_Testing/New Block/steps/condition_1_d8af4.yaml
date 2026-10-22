@@ -1,0 +1,60 @@
+identifier: d8af4ad8-1b26-4067-affd-eaadfd97bc40
+original_step_id: d8af4ad8-1b26-4067-affd-eaadfd97bc40
+parent_step_ids:
+- 616493aa-4f33-4676-94b7-01eb5c9a532a
+parent_step_id: 616493aa-4f33-4676-94b7-01eb5c9a532a
+previous_result_condition: '{"616493aa-4f33-4676-94b7-01eb5c9a532a": ""}'
+instance_name: Condition_1
+is_automatic: true
+name: Condition
+is_skippable: false
+description: This condition determines the progress of the playbook. Conditions are
+    built based on cases data (cases, alerts, vents, entities and environment properties)
+    as-well as data that comes back from previous playbook steps.
+action_provider: Flow
+action_name: IfFlowCondition
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+is_touched_by_ai: false
+type: condition
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: Branches
+    value: '[{"LogicalOperator":0,"Conditions":[{"Operator":0,"FieldName":"[Alert.Priority]","Type":7,"Value":"Low","CustomOperatorName":"Core
+        Functions.Equal"}],"Order":1,"IsDefaultBranch":false,"Name":"Branch"},{"LogicalOperator":0,"Conditions":[],"Order":2,"IsDefaultBranch":true,"Name":"Branch"}]'
+-   step_id: null
+    playbook_id: null
+    name: DistinctDuplicateEntities
+    value: 'true'
+-   step_id: null
+    playbook_id: null
+    name: ErrorFallbackBranch
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: 'true'
+parallel_actions: []
+step_debug_data: null
