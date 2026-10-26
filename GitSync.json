@@ -1,0 +1,18 @@
+{
+    "readme_addons": {
+        "Connector": {},
+        "Integration": {},
+        "Job": {},
+        "Mappings": {},
+        "Playbook": {
+            "Cortex XDR Remediation Block": "Test readme addon",
+            "New Playbook": "Test readme addon",
+            "Palo Alto Cortex XDR Starting Playbook": "Test readme addon"
+        },
+        "Visual Family": {}
+    },
+    "settings": {
+        "update_root_readme": true
+    },
+    "system_version": "6.1.6.186"
+}
