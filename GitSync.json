@@ -8,6 +8,7 @@
         "Job": {},
         "Mappings": {},
         "Playbook": {
+            "AWS Enrichment": "Test readme addon",
             "Censys - Entity Enrichment": "Test readme addon",
             "UI_Deconstruct_Test_PB": "Test readme addon"
         },
