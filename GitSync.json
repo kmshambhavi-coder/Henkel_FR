@@ -3,7 +3,9 @@
         "Connector": {
             "Google Chronicle - Chronicle Alerts Connector": "Readme addon connector test"
         },
-        "Integration": {},
+        "Integration": {
+            "GoogleChronicle": "test Readme test"
+        },
         "Job": {},
         "Mappings": {},
         "Playbook": {
