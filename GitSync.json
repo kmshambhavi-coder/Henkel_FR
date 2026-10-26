@@ -6,7 +6,9 @@
         "Integration": {
             "GoogleChronicle": "test Readme test"
         },
-        "Job": {},
+        "Job": {
+            "Google Chronicle Sync Job": "test readme"
+        },
         "Mappings": {},
         "Playbook": {
             "Cortex XDR Remediation Block": "Test readme addon",
