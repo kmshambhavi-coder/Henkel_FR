@@ -3,7 +3,9 @@
         "Block": {
             "AWS Enrichment": "Test readme addon"
         },
-        "Connector": {},
+        "Connector": {
+            "Google Chronicle - Chronicle Alerts Connector": "test Connector addon"
+        },
         "Integration": {},
         "Job": {},
         "Mappings": {},
