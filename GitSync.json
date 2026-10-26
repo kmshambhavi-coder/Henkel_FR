@@ -9,7 +9,9 @@
         "Job": {
             "Google Chronicle Sync Job": "test readme"
         },
-        "Mappings": {},
+        "Mappings": {
+            "CrowdStrikeFalcon": "Test readme addon"
+        },
         "Playbook": {
             "Cortex XDR Remediation Block": "Test readme addon",
             "New Playbook": "Test readme addon",
