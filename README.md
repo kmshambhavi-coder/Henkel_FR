@@ -14,3 +14,9 @@
 |New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook|Test description|
 
+
+## Visual Families
+|Name|Description|
+|----|-----------|
+|Visual_family001|Visual_family001|
+

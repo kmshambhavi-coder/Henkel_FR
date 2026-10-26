@@ -11,7 +11,9 @@
             "New Playbook": "Test readme addon",
             "Palo Alto Cortex XDR Starting Playbook": "Test readme addon"
         },
-        "Visual Family": {}
+        "Visual Family": {
+            "Visual_family001": "Test readme"
+        }
     },
     "settings": {
         "update_root_readme": true
