@@ -1,0 +1,13 @@
+[
+    {
+        "category": "cp001",
+        "creationTimeUnixTimeInMs": 1793012503161,
+        "entityIdentifier": "manualcustomlist",
+        "environments": [
+            "Default Environment"
+        ],
+        "forDBMigration": false,
+        "id": 1,
+        "modificationTimeUnixTimeInMs": 1793012503161
+    }
+]

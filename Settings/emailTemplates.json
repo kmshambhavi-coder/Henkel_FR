@@ -1,0 +1,15 @@
+[
+    {
+        "content": "manualemailtemplate",
+        "creationTimeUnixTimeInMs": 1793012547709,
+        "creatorUserName": "bfe90d06-0988-4c23-9e07-5c97e672a60e",
+        "environments": [
+            "Default Environment"
+        ],
+        "forMigration": false,
+        "id": 1,
+        "modificationTimeUnixTimeInMs": 1793012547709,
+        "name": "manualemailtemplate",
+        "type": 0
+    }
+]

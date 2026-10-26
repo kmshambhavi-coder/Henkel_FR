@@ -1,0 +1,51 @@
+[
+    {
+        "creationTimeUnixTimeInMs": 1793001869029,
+        "id": 1,
+        "modificationTimeUnixTimeInMs": 1793001869029,
+        "name": "Triage",
+        "order": 1
+    },
+    {
+        "creationTimeUnixTimeInMs": 1793001869029,
+        "id": 2,
+        "modificationTimeUnixTimeInMs": 1793001869029,
+        "name": "Assessment",
+        "order": 2
+    },
+    {
+        "creationTimeUnixTimeInMs": 1793001869029,
+        "id": 3,
+        "modificationTimeUnixTimeInMs": 1793001869029,
+        "name": "Investigation",
+        "order": 3
+    },
+    {
+        "creationTimeUnixTimeInMs": 1793001869029,
+        "id": 4,
+        "modificationTimeUnixTimeInMs": 1793001869029,
+        "name": "Incident",
+        "order": 4
+    },
+    {
+        "creationTimeUnixTimeInMs": 1793001869029,
+        "id": 5,
+        "modificationTimeUnixTimeInMs": 1793001869029,
+        "name": "Improvement",
+        "order": 5
+    },
+    {
+        "creationTimeUnixTimeInMs": 1793001869029,
+        "id": 6,
+        "modificationTimeUnixTimeInMs": 1793001869029,
+        "name": "Research",
+        "order": 6
+    },
+    {
+        "creationTimeUnixTimeInMs": 1793012384918,
+        "id": 7,
+        "modificationTimeUnixTimeInMs": 1793012384918,
+        "name": "manual",
+        "order": 7
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "environment": "*",
+        "integrationIdentifier": "GoogleSecOpsAiAgents",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System All Environments Default Instance",
+            "settings": [
+                {
+                    "creationTimeUnixTimeInMs": 0,
+                    "environment": null,
+                    "id": 27,
+                    "integrationIdentifier": "GoogleSecOpsAiAgents",
+                    "integrationInstance": "01a17777-2536-7020-8c82-b6ad3da7a5c6",
+                    "isConfigured": true,
+                    "isMandatory": false,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection.",
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyName": "Verify SSL",
+                    "propertyType": 0,
+                    "value": "True"
+                },
+                {
+                    "creationTimeUnixTimeInMs": 0,
+                    "environment": null,
+                    "id": 28,
+                    "integrationIdentifier": "GoogleSecOpsAiAgents",
+                    "integrationInstance": "01a17777-2536-7020-8c82-b6ad3da7a5c6",
+                    "isConfigured": false,
+                    "isMandatory": false,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyName": "AgentIdentifier",
+                    "propertyType": 9,
+                    "value": null
+                }
+            ]
+        }
+    }
+]

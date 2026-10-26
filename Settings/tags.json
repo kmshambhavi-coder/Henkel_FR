@@ -1,0 +1,15 @@
+[
+    {
+        "compareType": 2,
+        "creationTimeUnixTimeInMs": 1793012374328,
+        "environments": [],
+        "id": 3,
+        "isPotentialCaseName": false,
+        "modificationTimeUnixTimeInMs": 1793012374328,
+        "name": "Tag1",
+        "priority": 1,
+        "propertyName": "",
+        "type": 1,
+        "value": "Data Exfiltration"
+    }
+]

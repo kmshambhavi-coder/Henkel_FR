@@ -1,0 +1,13 @@
+[
+    {
+        "address": "192.168.1.0/24",
+        "creationTimeUnixTimeInMs": 1793012466126,
+        "environments": [
+            "Default Environment"
+        ],
+        "id": 1,
+        "modificationTimeUnixTimeInMs": 1793012466126,
+        "name": "manual network",
+        "priority": 1
+    }
+]
